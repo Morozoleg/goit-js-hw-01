@@ -1,6 +1,6 @@
 let country;
 let price;
-let message;
+let message = '';
 let enteredData = prompt('Чтобы узнать стоимость доставки, введите название страны');
 if(enteredData === null) {
     message = 'Отменено пользователем!';
