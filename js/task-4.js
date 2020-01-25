@@ -5,7 +5,7 @@ const enteredData = prompt ('Введите количество дроидов,
 if (enteredData === null) {
     message = 'Отменено пользователем!';
 } else {
-    const totalPrice = pricePerDroid * enteredData;
+    const totalPrice = pricePerDroid * Number(enteredData);
 message =
 totalPrice > credits
 ? 'Недостаточно средств на счету!'
